@@ -1,0 +1,14 @@
+prefix=/home/jrabus/.local
+bindir=${prefix}/bin/debug
+staticlibdir=${prefix}/lib/debug
+sharedlibdir=${prefix}/lib/debug
+includedir=${prefix}/include
+
+Version: 
+
+Name: rules
+Description: Rules library
+
+Requires:
+Libs: -L${bindir} -L${staticlibdir} -L${sharedlibdir} -lrules
+Cflags: -I${includedir}

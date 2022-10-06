@@ -1,0 +1,1 @@
+/usr/bin/cc  --coverage -g   --coverage -rdynamic CMakeFiles/test-initialize-rules.dir/test-initialize-rules.c.o  -o test-initialize-rules  -Wl,-rpath,/home/jrabus/Documents/c/rules-c/build/src librules.so 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrabus/Documents/c/rules-c/src/rules.h
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/jrabus/Documents/c/rules-c/src/tab-tab.inc
+
+/home/jrabus/Documents/c/rules-c/src/tab.inc
+
+/home/jrabus/Documents/c/rules-c/src/test-size-tab-file.c
+stdlib.h
+-
+assert.h
+-
+./rules.h
+/home/jrabus/Documents/c/rules-c/src/rules.h
+./tab.inc
+/home/jrabus/Documents/c/rules-c/src/tab.inc
+./tab-tab.inc
+/home/jrabus/Documents/c/rules-c/src/tab-tab.inc
+

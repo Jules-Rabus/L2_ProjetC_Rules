@@ -1,0 +1,333 @@
+Start testing: Dec 10 20:45 CET
+----------------------------------------------------------
+1/22 Testing: test-add-output[valgrind]
+1/22 Test: test-add-output[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-add-output"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-add-output[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"test-add-output[valgrind]" end time: Dec 10 20:45 CET
+"test-add-output[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/22 Testing: test-add-output[normal]
+2/22 Test: test-add-output[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-add-output"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-add-output[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-add-output[normal]" end time: Dec 10 20:45 CET
+"test-add-output[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/22 Testing: test-file-exist[valgrind]
+3/22 Test: test-file-exist[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-file-exist"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-file-exist[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"test-file-exist[valgrind]" end time: Dec 10 20:45 CET
+"test-file-exist[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/22 Testing: test-file-exist[normal]
+4/22 Test: test-file-exist[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-file-exist"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-file-exist[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-file-exist[normal]" end time: Dec 10 20:45 CET
+"test-file-exist[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/22 Testing: test-fill-facts[valgrind]
+5/22 Test: test-fill-facts[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-fill-facts"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-fill-facts[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"test-fill-facts[valgrind]" end time: Dec 10 20:45 CET
+"test-fill-facts[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/22 Testing: test-fill-facts[normal]
+6/22 Test: test-fill-facts[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-fill-facts"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-fill-facts[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-fill-facts[normal]" end time: Dec 10 20:45 CET
+"test-fill-facts[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/22 Testing: test-fill-output[valgrind]
+7/22 Test: test-fill-output[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-fill-output"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-fill-output[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"test-fill-output[valgrind]" end time: Dec 10 20:45 CET
+"test-fill-output[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/22 Testing: test-fill-output[normal]
+8/22 Test: test-fill-output[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-fill-output"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-fill-output[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-fill-output[normal]" end time: Dec 10 20:45 CET
+"test-fill-output[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/22 Testing: test-fill-rules[valgrind]
+9/22 Test: test-fill-rules[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-fill-rules"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-fill-rules[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"test-fill-rules[valgrind]" end time: Dec 10 20:45 CET
+"test-fill-rules[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/22 Testing: test-fill-rules[normal]
+10/22 Test: test-fill-rules[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-fill-rules"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-fill-rules[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-fill-rules[normal]" end time: Dec 10 20:45 CET
+"test-fill-rules[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/22 Testing: test-find-facts[valgrind]
+11/22 Test: test-find-facts[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-find-facts"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-find-facts[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"test-find-facts[valgrind]" end time: Dec 10 20:45 CET
+"test-find-facts[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/22 Testing: test-find-facts[normal]
+12/22 Test: test-find-facts[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-find-facts"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-find-facts[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-find-facts[normal]" end time: Dec 10 20:45 CET
+"test-find-facts[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/22 Testing: test-initialize-facts[valgrind]
+13/22 Test: test-initialize-facts[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-initialize-facts"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-initialize-facts[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"test-initialize-facts[valgrind]" end time: Dec 10 20:45 CET
+"test-initialize-facts[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/22 Testing: test-initialize-facts[normal]
+14/22 Test: test-initialize-facts[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-initialize-facts"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-initialize-facts[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-initialize-facts[normal]" end time: Dec 10 20:45 CET
+"test-initialize-facts[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/22 Testing: test-initialize-output[valgrind]
+15/22 Test: test-initialize-output[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-initialize-output"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-initialize-output[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"test-initialize-output[valgrind]" end time: Dec 10 20:45 CET
+"test-initialize-output[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/22 Testing: test-initialize-output[normal]
+16/22 Test: test-initialize-output[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-initialize-output"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-initialize-output[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-initialize-output[normal]" end time: Dec 10 20:45 CET
+"test-initialize-output[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/22 Testing: test-initialize-rules[valgrind]
+17/22 Test: test-initialize-rules[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-initialize-rules"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-initialize-rules[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"test-initialize-rules[valgrind]" end time: Dec 10 20:45 CET
+"test-initialize-rules[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/22 Testing: test-initialize-rules[normal]
+18/22 Test: test-initialize-rules[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-initialize-rules"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-initialize-rules[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-initialize-rules[normal]" end time: Dec 10 20:45 CET
+"test-initialize-rules[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/22 Testing: test-output-fwrite[valgrind]
+19/22 Test: test-output-fwrite[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-output-fwrite"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-output-fwrite[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"test-output-fwrite[valgrind]" end time: Dec 10 20:45 CET
+"test-output-fwrite[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/22 Testing: test-output-fwrite[normal]
+20/22 Test: test-output-fwrite[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-output-fwrite"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-output-fwrite[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test-output-fwrite[normal]" end time: Dec 10 20:45 CET
+"test-output-fwrite[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/22 Testing: test-size-tab-file[valgrind]
+21/22 Test: test-size-tab-file[valgrind]
+Command: "/usr/bin/valgrind" "--leak-check=full" "--quiet" "--error-exitcode=1" "./test-size-tab-file"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-size-tab-file[valgrind]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"test-size-tab-file[valgrind]" end time: Dec 10 20:45 CET
+"test-size-tab-file[valgrind]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/22 Testing: test-size-tab-file[normal]
+22/22 Test: test-size-tab-file[normal]
+Command: "/home/jrabus/Documents/c/rules-c/build/src/test-size-tab-file"
+Directory: /home/jrabus/Documents/c/rules-c/build/src
+"test-size-tab-file[normal]" start time: Dec 10 20:45 CET
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test-size-tab-file[normal]" end time: Dec 10 20:45 CET
+"test-size-tab-file[normal]" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 10 20:45 CET

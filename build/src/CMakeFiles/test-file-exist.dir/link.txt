@@ -1,0 +1,1 @@
+/usr/bin/cc  --coverage -g   --coverage -rdynamic CMakeFiles/test-file-exist.dir/test-file-exist.c.o  -o test-file-exist  -Wl,-rpath,/home/jrabus/Documents/c/rules-c/build/src librules.so 

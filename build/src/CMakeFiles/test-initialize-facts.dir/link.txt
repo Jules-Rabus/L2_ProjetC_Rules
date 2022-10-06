@@ -1,0 +1,1 @@
+/usr/bin/cc  --coverage -g   --coverage -rdynamic CMakeFiles/test-initialize-facts.dir/test-initialize-facts.c.o  -o test-initialize-facts  -Wl,-rpath,/home/jrabus/Documents/c/rules-c/build/src librules.so 

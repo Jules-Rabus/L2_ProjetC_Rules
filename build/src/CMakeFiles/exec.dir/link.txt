@@ -1,0 +1,1 @@
+/usr/bin/cc  --coverage -g   --coverage -rdynamic CMakeFiles/exec.dir/rules.c.o  -o exec 

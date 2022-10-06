@@ -1,0 +1,314 @@
+\hypertarget{rules_8c}{}\doxysection{src/rules.c File Reference}
+\label{rules_8c}\index{src/rules.c@{src/rules.c}}
+{\ttfamily \#include \char`\"{}./rules.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./tab.\+inc\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}./tab-\/tab.\+inc\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{rules_8c_aa3269e9f9a1ceb53236757fbcdec458b}\label{rules_8c_aa3269e9f9a1ceb53236757fbcdec458b}} 
+unsigned int $\ast$ {\bfseries size\+\_\+tab\+\_\+file} (const char $\ast$file)
+\begin{DoxyCompactList}\small\item\em function prototype unsigned int $\ast$size\+\_\+tab\+\_\+file \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{rules_8c_a3bd690ad6b4c07ee05df1fbb6036eb61}\label{rules_8c_a3bd690ad6b4c07ee05df1fbb6036eb61}} 
+\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$ {\bfseries initialize\+\_\+rules} (const char $\ast$file)
+\begin{DoxyCompactList}\small\item\em function prototype Tab\+\_\+tab $\ast$initialize\+\_\+rules \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{rules_8c_ac670c6a1d332a78efddd01f55531d26e}\label{rules_8c_ac670c6a1d332a78efddd01f55531d26e}} 
+\mbox{\hyperlink{struct___tab}{Tab}} $\ast$ {\bfseries initialize\+\_\+facts} (const char $\ast$file)
+\begin{DoxyCompactList}\small\item\em function prototype Tab $\ast$initialize\+\_\+facts \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct___tab}{Tab}} $\ast$ \mbox{\hyperlink{rules_8c_a9741a1ca34e2374cd9810a26b8356575}{initialize\+\_\+output}} (\mbox{\hyperlink{struct___tab}{Tab}} $\ast$facts)
+\begin{DoxyCompactList}\small\item\em COPY FACTS IN A STRUCT TAB. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{rules_8c_ac6169e2d9e89aec4942c2d53a5926410}\label{rules_8c_ac6169e2d9e89aec4942c2d53a5926410}} 
+void {\bfseries fill\+\_\+rules} (\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$rules, const char $\ast$file)
+\begin{DoxyCompactList}\small\item\em function prototype void fill\+\_\+rules \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_ab0a6aedcfad9498307774d43866796b4}{fill\+\_\+facts}} (\mbox{\hyperlink{struct___tab}{Tab}} $\ast$facts, const char $\ast$file)
+\begin{DoxyCompactList}\small\item\em RECOVER THE FACTS.\+TXT FILE IN ORDER TO FILL THE STRUCT FACTS. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_a76cd9ddfefd86d002b8680d7a1259ec8}{add\+\_\+output}} (\mbox{\hyperlink{struct___tab}{Tab}} $\ast$output, unsigned int value)
+\begin{DoxyCompactList}\small\item\em Adds an unsigned integer to the struct output. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{rules_8c_ac752877f03fd1dd34cf31a79bf3d3d83}{find\+\_\+facts}} (\mbox{\hyperlink{struct___tab}{Tab}} $\ast$facts, unsigned int value)
+\begin{DoxyCompactList}\small\item\em FIND IF THE VALUE EXISTS IN THE FACT TABLE. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_a138229acf90a0f09d92eb1496956f978}{destroy\+\_\+tab}} (\mbox{\hyperlink{struct___tab}{Tab}} $\ast$tab)
+\begin{DoxyCompactList}\small\item\em Free the memory of the struct Tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_a2ce7d7df3bb3111cf719a4e42b8ad23b}{destroy\+\_\+tab\+\_\+tab}} (\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$tab)
+\begin{DoxyCompactList}\small\item\em Free the memory of the struct Tab. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_acfe80102e8c9ed6fe69df70ff39a355a}{print\+\_\+tab\+\_\+int}} (\mbox{\hyperlink{struct___tab}{Tab}} $\ast$tab)
+\begin{DoxyCompactList}\small\item\em FULLY DISPLAYS A STRUCT TAB. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_ad433d3ddd7cabc77673f10b5ddcf348a}{print\+\_\+tab\+\_\+tab\+\_\+int}} (\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$tab)
+\begin{DoxyCompactList}\small\item\em FULLY DISPLAYS A STRUCT TAB\+\_\+\+TAB. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_a9d5f900f4c3b2e08618e4c15f6ed8814}{fill\+\_\+output}} (\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$rules, \mbox{\hyperlink{struct___tab}{Tab}} $\ast$output)
+\begin{DoxyCompactList}\small\item\em Completed the output following the defined rules. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{rules_8c_a2576038853bdde8277593e2ae702a904}{output\+\_\+fwrite}} (const \mbox{\hyperlink{struct___tab}{Tab}} $\ast$output, const char $\ast$file)
+\begin{DoxyCompactList}\small\item\em Writes the output of the program to the specified file. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{rules_8c_a0c9c63b20d9097d87fa40f675df5b829}{file\+\_\+exist}} (const char $\ast$file)
+\begin{DoxyCompactList}\small\item\em Check if the file exists ~\newline
+ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{rules_8c_a6b0fd93cca685f1048da8576f6648d3a}{process\+\_\+argument}} (int argc, char $\ast$$\ast$argv, char $\ast$$\ast$filename\+\_\+rules, char $\ast$$\ast$filename\+\_\+facts, char $\ast$$\ast$filename\+\_\+output)
+\begin{DoxyCompactList}\small\item\em Checks if the entered arguments are correct. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{rules_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em The main function of the program. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Groupe F 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2021-\/12 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{rules_8c_a76cd9ddfefd86d002b8680d7a1259ec8}\label{rules_8c_a76cd9ddfefd86d002b8680d7a1259ec8}} 
+\index{rules.c@{rules.c}!add\_output@{add\_output}}
+\index{add\_output@{add\_output}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{add\_output()}{add\_output()}}
+{\footnotesize\ttfamily void $\ast$ add\+\_\+output (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{output,  }\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+Adds an unsigned integer to the struct output. 
+
+function prototype void add\+\_\+output
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & The struct output \\
+\hline
+{\em value} & The unsigned integer to add \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rules_8c_a138229acf90a0f09d92eb1496956f978}\label{rules_8c_a138229acf90a0f09d92eb1496956f978}} 
+\index{rules.c@{rules.c}!destroy\_tab@{destroy\_tab}}
+\index{destroy\_tab@{destroy\_tab}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{destroy\_tab()}{destroy\_tab()}}
+{\footnotesize\ttfamily destroy\+\_\+tab (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{tab }\end{DoxyParamCaption})}
+
+
+
+Free the memory of the struct Tab. 
+
+function prototype void print\+\_\+tab\+\_\+int
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & A struct Tab \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rules_8c_a2ce7d7df3bb3111cf719a4e42b8ad23b}\label{rules_8c_a2ce7d7df3bb3111cf719a4e42b8ad23b}} 
+\index{rules.c@{rules.c}!destroy\_tab\_tab@{destroy\_tab\_tab}}
+\index{destroy\_tab\_tab@{destroy\_tab\_tab}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{destroy\_tab\_tab()}{destroy\_tab\_tab()}}
+{\footnotesize\ttfamily destroy\+\_\+tab\+\_\+tab (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$}]{tab }\end{DoxyParamCaption})}
+
+
+
+Free the memory of the struct Tab. 
+
+function prototype void destroy\+\_\+tab\+\_\+tab
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & A struct Tab\+\_\+tab \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rules_8c_a0c9c63b20d9097d87fa40f675df5b829}\label{rules_8c_a0c9c63b20d9097d87fa40f675df5b829}} 
+\index{rules.c@{rules.c}!file\_exist@{file\_exist}}
+\index{file\_exist@{file\_exist}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{file\_exist()}{file\_exist()}}
+{\footnotesize\ttfamily int file\+\_\+exist (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+Check if the file exists ~\newline
+ 
+
+function prototype bool file\+\_\+exist
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a bool, return true if the file exists, else false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{rules_8c_ab0a6aedcfad9498307774d43866796b4}\label{rules_8c_ab0a6aedcfad9498307774d43866796b4}} 
+\index{rules.c@{rules.c}!fill\_facts@{fill\_facts}}
+\index{fill\_facts@{fill\_facts}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{fill\_facts()}{fill\_facts()}}
+{\footnotesize\ttfamily void $\ast$ fill\+\_\+facts (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{facts,  }\item[{const char $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+RECOVER THE FACTS.\+TXT FILE IN ORDER TO FILL THE STRUCT FACTS. 
+
+function prototype void fill\+\_\+facts
+
+
+\begin{DoxyParams}{Parameters}
+{\em facts} & The struct facts \\
+\hline
+{\em file} & The path to the file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rules_8c_a9d5f900f4c3b2e08618e4c15f6ed8814}\label{rules_8c_a9d5f900f4c3b2e08618e4c15f6ed8814}} 
+\index{rules.c@{rules.c}!fill\_output@{fill\_output}}
+\index{fill\_output@{fill\_output}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{fill\_output()}{fill\_output()}}
+{\footnotesize\ttfamily void $\ast$ fill\+\_\+output (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$}]{rules,  }\item[{\mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{output }\end{DoxyParamCaption})}
+
+
+
+Completed the output following the defined rules. 
+
+function prototype void fill\+\_\+output
+
+
+\begin{DoxyParams}{Parameters}
+{\em rules} & The struct rules \\
+\hline
+{\em output} & The struct output \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rules_8c_ac752877f03fd1dd34cf31a79bf3d3d83}\label{rules_8c_ac752877f03fd1dd34cf31a79bf3d3d83}} 
+\index{rules.c@{rules.c}!find\_facts@{find\_facts}}
+\index{find\_facts@{find\_facts}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{find\_facts()}{find\_facts()}}
+{\footnotesize\ttfamily bool find\+\_\+facts (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{facts,  }\item[{unsigned int}]{value }\end{DoxyParamCaption})}
+
+
+
+FIND IF THE VALUE EXISTS IN THE FACT TABLE. 
+
+function prototype bool find\+\_\+facts
+
+
+\begin{DoxyParams}{Parameters}
+{\em facts} & The struct facts \\
+\hline
+{\em value} & The unsigned integer to find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a bool, true if find, false if not find 
+\end{DoxyReturn}
+\mbox{\Hypertarget{rules_8c_a9741a1ca34e2374cd9810a26b8356575}\label{rules_8c_a9741a1ca34e2374cd9810a26b8356575}} 
+\index{rules.c@{rules.c}!initialize\_output@{initialize\_output}}
+\index{initialize\_output@{initialize\_output}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{initialize\_output()}{initialize\_output()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct___tab}{Tab}} $\ast$ initialize\+\_\+output (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{facts }\end{DoxyParamCaption})}
+
+
+
+COPY FACTS IN A STRUCT TAB. 
+
+function prototype Tab $\ast$initialize\+\_\+output
+
+
+\begin{DoxyParams}{Parameters}
+{\em facts} & the facts that have been read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a copy of the struct facts 
+\end{DoxyReturn}
+\mbox{\Hypertarget{rules_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{rules_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{rules.c@{rules.c}!main@{main}}
+\index{main@{main}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+The main function of the program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & The number of entered arguments \\
+\hline
+{\em argv} & The entered arguments \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns 1 if the program was executed correctly 
+\end{DoxyReturn}
+\mbox{\Hypertarget{rules_8c_a2576038853bdde8277593e2ae702a904}\label{rules_8c_a2576038853bdde8277593e2ae702a904}} 
+\index{rules.c@{rules.c}!output\_fwrite@{output\_fwrite}}
+\index{output\_fwrite@{output\_fwrite}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{output\_fwrite()}{output\_fwrite()}}
+{\footnotesize\ttfamily bool output\+\_\+fwrite (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{output,  }\item[{const char $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+Writes the output of the program to the specified file. 
+
+function prototype bool output\+\_\+fwrite
+
+
+\begin{DoxyParams}{Parameters}
+{\em output} & The struct output \\
+\hline
+{\em file} & The path to the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a bool, return true if the file has been written correctly, else false 
+\end{DoxyReturn}
+\mbox{\Hypertarget{rules_8c_acfe80102e8c9ed6fe69df70ff39a355a}\label{rules_8c_acfe80102e8c9ed6fe69df70ff39a355a}} 
+\index{rules.c@{rules.c}!print\_tab\_int@{print\_tab\_int}}
+\index{print\_tab\_int@{print\_tab\_int}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{print\_tab\_int()}{print\_tab\_int()}}
+{\footnotesize\ttfamily void print\+\_\+tab\+\_\+int (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab}{Tab}} $\ast$}]{tab }\end{DoxyParamCaption})}
+
+
+
+FULLY DISPLAYS A STRUCT TAB. 
+
+function prototype void destroy\+\_\+tab
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & A struct Tab \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rules_8c_ad433d3ddd7cabc77673f10b5ddcf348a}\label{rules_8c_ad433d3ddd7cabc77673f10b5ddcf348a}} 
+\index{rules.c@{rules.c}!print\_tab\_tab\_int@{print\_tab\_tab\_int}}
+\index{print\_tab\_tab\_int@{print\_tab\_tab\_int}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{print\_tab\_tab\_int()}{print\_tab\_tab\_int()}}
+{\footnotesize\ttfamily void print\+\_\+tab\+\_\+tab\+\_\+int (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct___tab__tab}{Tab\+\_\+tab}} $\ast$}]{tab }\end{DoxyParamCaption})}
+
+
+
+FULLY DISPLAYS A STRUCT TAB\+\_\+\+TAB. 
+
+function prototype void print\+\_\+tab\+\_\+tab\+\_\+int
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & A struct Tab\+\_\+\+Tab \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{rules_8c_a6b0fd93cca685f1048da8576f6648d3a}\label{rules_8c_a6b0fd93cca685f1048da8576f6648d3a}} 
+\index{rules.c@{rules.c}!process\_argument@{process\_argument}}
+\index{process\_argument@{process\_argument}!rules.c@{rules.c}}
+\doxysubsubsection{\texorpdfstring{process\_argument()}{process\_argument()}}
+{\footnotesize\ttfamily void process\+\_\+argument (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv,  }\item[{char $\ast$$\ast$}]{filename\+\_\+rules,  }\item[{char $\ast$$\ast$}]{filename\+\_\+facts,  }\item[{char $\ast$$\ast$}]{filename\+\_\+output }\end{DoxyParamCaption})}
+
+
+
+Checks if the entered arguments are correct. 
+
+function prototype void process\+\_\+argument
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & The number of entered arguments \\
+\hline
+{\em argv} & The entered arguments \\
+\hline
+{\em filename\+\_\+rules} & The file name pointer for the rules \\
+\hline
+{\em filename\+\_\+facts} & The file name pointer for the facts \\
+\hline
+{\em filename\+\_\+output} & The file name pointer for the output \\
+\hline
+\end{DoxyParams}

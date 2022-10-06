@@ -1,0 +1,23 @@
+test-add-output[valgrind] 2 0.340612
+test-add-output[normal] 2 0.00351008
+test-file-exist[valgrind] 2 0.339655
+test-file-exist[normal] 2 0.00364302
+test-fill-facts[valgrind] 2 0.340749
+test-fill-facts[normal] 2 0.00352935
+test-fill-output[valgrind] 2 0.346043
+test-fill-output[normal] 2 0.00481635
+test-fill-rules[valgrind] 2 0.343224
+test-fill-rules[normal] 2 0.00379533
+test-find-facts[valgrind] 2 0.345963
+test-find-facts[normal] 2 0.00419412
+test-initialize-facts[valgrind] 2 0.333156
+test-initialize-facts[normal] 2 0.00368425
+test-initialize-output[valgrind] 2 0.338866
+test-initialize-output[normal] 2 0.00411362
+test-initialize-rules[valgrind] 2 0.335746
+test-initialize-rules[normal] 2 0.00438151
+test-output-fwrite[valgrind] 2 0.371975
+test-output-fwrite[normal] 2 0.00817208
+test-size-tab-file[valgrind] 2 0.333224
+test-size-tab-file[normal] 2 0.00362798
+---

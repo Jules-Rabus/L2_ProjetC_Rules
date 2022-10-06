@@ -1,0 +1,59 @@
+\hypertarget{rules_8h_source}{}\doxysection{rules.\+h}
+\label{rules_8h_source}\index{src/rules.h@{src/rules.h}}
+\mbox{\hyperlink{rules_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{8 \textcolor{comment}{/*-\/-\/    IF NOT DEFINED -\/-\/*/}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#ifndef RULES\_H\_}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#define RULES\_H\_}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{comment}{/*-\/-\/    INCLUDES    -\/-\/*/}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <stdbool.h>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <stdio.h>}}
+\DoxyCodeLine{16 \textcolor{preprocessor}{\#include <stdlib.h>}}
+\DoxyCodeLine{17 \textcolor{preprocessor}{\#include <string.h>}}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{comment}{/*-\/-\/    STRUCTURES  -\/-\/*/}}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{27 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{struct___tab__tab}{\_Tab\_tab}} \mbox{\hyperlink{struct___tab__tab}{Tab\_tab}} ;}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{35 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{struct___tab}{\_Tab}} \mbox{\hyperlink{struct___tab}{Tab}};}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{comment}{/*-\/-\/    EXTERNS FUNCTIONS   -\/-\/*/}}
+\DoxyCodeLine{41 \textcolor{keyword}{extern} \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} *\mbox{\hyperlink{rules_8h_aa3269e9f9a1ceb53236757fbcdec458b}{size\_tab\_file}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* file);}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{46 \textcolor{keyword}{extern} \mbox{\hyperlink{struct___tab__tab}{Tab\_tab}} *\mbox{\hyperlink{rules_8h_a3bd690ad6b4c07ee05df1fbb6036eb61}{initialize\_rules}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* file);}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{51 \textcolor{keyword}{extern} \mbox{\hyperlink{struct___tab}{Tab}} *\mbox{\hyperlink{rules_8h_ac670c6a1d332a78efddd01f55531d26e}{initialize\_facts}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* file);}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{56 \textcolor{keyword}{extern} \mbox{\hyperlink{struct___tab}{Tab}} *\mbox{\hyperlink{rules_8h_a9741a1ca34e2374cd9810a26b8356575}{initialize\_output}}(\mbox{\hyperlink{struct___tab}{Tab}} *facts);}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{61 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_ac6169e2d9e89aec4942c2d53a5926410}{fill\_rules}}(\mbox{\hyperlink{struct___tab__tab}{Tab\_tab}} *rules, \textcolor{keyword}{const} \textcolor{keywordtype}{char}* file);}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{66 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_ae80eae6c0f312cde424f853c929f99e5}{fill\_facts}}(\mbox{\hyperlink{struct___tab}{Tab}} *facts,\textcolor{keyword}{const} \textcolor{keywordtype}{char} *file);}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{71 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_a8344788388a636b01d909bcd7b843ff4}{add\_output}}( \mbox{\hyperlink{struct___tab}{Tab}} *output, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} value);}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{76 \textcolor{keyword}{extern} \textcolor{keywordtype}{bool} \mbox{\hyperlink{rules_8h_ac752877f03fd1dd34cf31a79bf3d3d83}{find\_facts}}(\mbox{\hyperlink{struct___tab}{Tab}} *facts, \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{int} value);}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{81 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_a4c2937ef184fc9c97efca75604947d57}{destroy\_tab}}(\mbox{\hyperlink{struct___tab}{Tab}} *tab);}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{86 \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_a535fd3ce60cfb3658edb1d55ebf9b958}{destroy\_tab\_tab}}(\mbox{\hyperlink{struct___tab__tab}{Tab\_tab}} *tab);}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{91 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_acfe80102e8c9ed6fe69df70ff39a355a}{print\_tab\_int}}(\mbox{\hyperlink{struct___tab}{Tab}} *tab);}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{96 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_ad433d3ddd7cabc77673f10b5ddcf348a}{print\_tab\_tab\_int}}(\mbox{\hyperlink{struct___tab__tab}{Tab\_tab}} *tab);}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{101 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_a3fb0cbdc033da8f6d1cd5afcdcbaa3fd}{fill\_output}}(\mbox{\hyperlink{struct___tab__tab}{Tab\_tab}} *rules, \mbox{\hyperlink{struct___tab}{Tab}} *output);}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{106 \textcolor{keyword}{extern} \textcolor{keywordtype}{bool} \mbox{\hyperlink{rules_8h_a2576038853bdde8277593e2ae702a904}{output\_fwrite}}(\textcolor{keyword}{const} \mbox{\hyperlink{struct___tab}{Tab}} *output,\textcolor{keyword}{const} \textcolor{keywordtype}{char} *file);}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{111 \textcolor{keyword}{extern} \textcolor{keywordtype}{bool} \mbox{\hyperlink{rules_8h_a23690cb6d1ea6b6a613e6651bba5be81}{file\_exist}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char} *file);}
+\DoxyCodeLine{112 }
+\DoxyCodeLine{116 \textcolor{keyword}{extern} \textcolor{keywordtype}{void} \mbox{\hyperlink{rules_8h_a6b0fd93cca685f1048da8576f6648d3a}{process\_argument}}(\textcolor{keywordtype}{int} argc, \textcolor{keywordtype}{char} **argv, \textcolor{keywordtype}{char} **filename\_rules, \textcolor{keywordtype}{char} **filename\_facts, \textcolor{keywordtype}{char} **filename\_output);}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{118 \textcolor{comment}{/*-\/-\/    ENDIF   -\/-\/*/}}
+\DoxyCodeLine{119 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// RULES\_H\_}}
+
+\end{DoxyCode}

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC  --coverage -g  --coverage -shared -Wl,-soname,librules.so -o librules.so CMakeFiles/rules.dir/rules.c.o 

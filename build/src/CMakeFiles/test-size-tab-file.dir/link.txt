@@ -1,0 +1,1 @@
+/usr/bin/cc  --coverage -g   --coverage -rdynamic CMakeFiles/test-size-tab-file.dir/test-size-tab-file.c.o  -o test-size-tab-file  -Wl,-rpath,/home/jrabus/Documents/c/rules-c/build/src librules.so 

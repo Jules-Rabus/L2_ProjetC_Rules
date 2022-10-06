@@ -1,0 +1,1 @@
+/usr/bin/cc  --coverage -g   --coverage -rdynamic CMakeFiles/test-fill-rules.dir/test-fill-rules.c.o  -o test-fill-rules  -Wl,-rpath,/home/jrabus/Documents/c/rules-c/build/src librules.so 

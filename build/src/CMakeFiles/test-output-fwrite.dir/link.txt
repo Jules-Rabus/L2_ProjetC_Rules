@@ -1,0 +1,1 @@
+/usr/bin/cc  --coverage -g   --coverage -rdynamic CMakeFiles/test-output-fwrite.dir/test-output-fwrite.c.o  -o test-output-fwrite  -Wl,-rpath,/home/jrabus/Documents/c/rules-c/build/src librules.so 
